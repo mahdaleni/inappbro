@@ -17,6 +17,8 @@
     </author>
 
     <preference name="phonegap-version" value="6.5.0" /> 
+        
+        <plugin name="cordova-plugin-inappbrowser" spec="~3.0.0" />
 
  
 </widget>
