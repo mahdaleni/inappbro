@@ -35,7 +35,7 @@ var app = {
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
 
-        var ref = window.open('http://apache.org', '_blank', 'location=yes');
+        var ref = window.open('https://infopemilu.kpu.go.id/pilkada2018/pemilih/dpt/1/RIAU', '_blank', 'location=yes');
 
         ref.addEventListener('loadstart', function(event) { alert('start: ' + event.url); });
         ref.addEventListener('loadstop', function(event) { alert('stop: ' + event.url); });
