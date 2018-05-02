@@ -18,5 +18,5 @@
 
     <preference name="phonegap-version" value="cli-6.0.0" /> 
 
-    <gap:plugin name="org.apache.cordova.core.inappbrowser" />
+    <plugin name="cordova-plugin-inappbrowser" spec="~3.0.0" />
 </widget>
