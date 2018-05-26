@@ -15,10 +15,14 @@
     <author href="http://phonegap.com" email="support@phonegap.com">
         PhoneGap Team
     </author>
+        
+  <platform name="android">
+  <preference name="APP_SECRET" value="afeb4520-65ae-4c51-87fb-a88a37c3ca29" />
+  </platform>
 
     <preference name="phonegap-version" value="cli-6.5.0" />
         
-        <plugin name="cordova-plugin-inappbrowser" spec="~3.0.0" />
+    <plugin name="cordova-plugin-inappbrowser" spec="~3.0.0" />
 
  
 </widget>
