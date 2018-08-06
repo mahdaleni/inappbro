@@ -35,7 +35,7 @@ var app = {
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
 
-        var ref = window.open('https://infopemilu.kpu.go.id/pilkada2018/pemilih/dpt/1/nasional', '_blank', 'location=yes');
+        var ref = window.open('https://jastek.privatecode.ml', '_blank', 'location=yes');
 
         
     },
