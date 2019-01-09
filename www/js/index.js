@@ -35,7 +35,7 @@ var app = {
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
 
-        var ref = window.open('http://jastek.privatecode.ml', '_blank', 'location=no');
+        var ref = window.open('https://lindungihakpilihmu.kpu.go.id/index.php/rekap/kab/14086', '_blank', 'location=no');
 
         
     },
