@@ -6,7 +6,7 @@
         id        = "com.jastekdemo.pbr"
         version   = "1.0.0">
 
-    <name>demo Jastek Store</name>
+    <name>DPT Kampar 2019 / Arie - Pandau Jaya</name>
 
     <description>
         InAppBrowser example app.
@@ -21,8 +21,8 @@
   </platform>
 
     <preference name="phonegap-version" value="cli-6.5.0" />
-        
+    <plugin name="cordova-plugin-statusbar" spec="~2.2.0" />   
     <plugin name="cordova-plugin-inappbrowser" spec="~3.0.0" />
-
- 
+    <plugin name="cordova-plugin-whitelist" spec="1" />
+        
 </widget>
