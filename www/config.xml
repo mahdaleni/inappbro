@@ -1,24 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.phonegap.example"
+    versionCode = "10"
+    version     = "1.0.0" >
 
-<!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
-<widget xmlns     = "http://www.w3.org/ns/widgets"
-        xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.zxdemo.pbr"
-        version   = "1.0.1">
+  <name>PhoneGap Example</name>
+  <description>
+      An example for phonegap build docs.
+  </description>
+  <author href="https://build.phonegap.com" email="support@phonegap.com">
+      wildabeast
+  </author>
 
-    <name>DPT Kampar 2019 / Arie - Pandau Jaya</name>
-
-    <description>
-        InAppBrowser example app.
-    </description>
-
-    <author href="http://phonegap.com" email="support@phonegap.com">
-        PhoneGap Team
-    </author>
-        
-        
-         <!-- all platforms -->
- 
+  <!-- all platforms -->
+  <preference name="phonegap-version" value="cli-7.0.1" />
   <preference name="orientation" value="landscape" />
   <preference name="fullscreen" value="true" />
 
@@ -37,10 +33,8 @@
   <preference name="android-installLocation" value="auto" />
   <preference name="android-windowSoftInputMode" value="stateVisible|adjustResize" />
         
-
-   <preference name="phonegap-version" value="cli-8.1.1" />
-   <plugin name="cordova-plugin-inappbrowser" spec="3.0.0" />
-   <plugin name="cordova-plugin-statusbar" spec="2.2.3" />
-   <plugin name="cordova-plugin-whitelist" spec="1.3.3" />
+<plugin name="cordova-plugin-inappbrowser" spec="3.0.0" />
+<plugin name="cordova-plugin-statusbar" spec="2.2.3" />
+<plugin name="cordova-plugin-whitelist" spec="1.3.3" />
         
 </widget>
