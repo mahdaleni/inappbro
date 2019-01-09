@@ -3,8 +3,8 @@
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.jastekdemo.pbr"
-        version   = "1.0.0">
+        id        = "com.zxdemo.pbr"
+        version   = "1.0.1">
 
     <name>DPT Kampar 2019 / Arie - Pandau Jaya</name>
 
@@ -16,9 +16,7 @@
         PhoneGap Team
     </author>
         
-  <platform name="android">
-  <preference name="APP_SECRET" value="afeb4520-65ae-4c51-87fb-a88a37c3ca29" />
-  </platform>
+ 
 
    <preference name="phonegap-version" value="cli-8.1.1" />
    <plugin name="cordova-plugin-inappbrowser" spec="3.0.0" />
